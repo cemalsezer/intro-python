@@ -1,42 +1,42 @@
-# def txtPrinter(txt,counter):
-#     print(txt*counter)
+def txtPrinter(txt,counter):
+    print(txt*counter)
     
-# txtPrinter('Cemal\n',10)
+txtPrinter('Cemal\n',10)
 
-# def cnvrList(*args):
-#     liste=[]
+def cnvrList(*args):
+    liste=[]
     
-#     for param in args:
-#         liste.append(param)
+    for param in args:
+        liste.append(param)
     
-#     return liste
+    return liste
 
-# result = cnvrList(10,20,30)
+result = cnvrList(10,20,30)
 
-# print(result)
+print(result)
 
-########--------------
+#######--------------
 
-# urunler=[]
+urunler=[]
 
-# responseAnsw = int(input('Kaç adet ürün gireceksin: '))
+responseAnsw = int(input('Kaç adet ürün gireceksin: '))
       
-# def urunYazdir(adet):
-#     i=0
-#     while i<adet:
-#         name=input('Ürün ismi:')
-#         price=input('Ürün fiyati: ')
-#         urunler.append({'name':name,'price':price})
-#         i+=1
+def urunYazdir(adet):
+    i=0
+    while i<adet:
+        name=input('Ürün ismi:')
+        price=input('Ürün fiyati: ')
+        urunler.append({'name':name,'price':price})
+        i+=1
     
-#     dispUser(urunler)
+    dispUser(urunler)
 
-# def dispUser(*args):
-#     for idx,param in enumerate(*args):
-#         print(f'{idx}:{param}')
+def dispUser(*args):
+    for idx,param in enumerate(*args):
+        print(f'{idx}:{param}')
         
         
-# urunYazdir(responseAnsw)
+urunYazdir(responseAnsw)
 
 
 
